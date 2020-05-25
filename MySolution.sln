@@ -1,0 +1,60 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 14
+VisualStudioVersion = 14.0.25420.1
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "00.Client", "00.Client", "{D4589957-35C3-4F8B-A9FD-CBD54B9D07A3}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "01.Tool", "01.Tool", "{4665DC3A-56B1-424F-8C34-CFB0960B40C9}"
+EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "Client", "Client\Client.vcxproj", "{09DAC3BD-079F-4542-BBB3-F126109DD672}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "99.Headers", "99.Headers", "{E7217AC6-5F92-4D32-8AF8-B78B4ACC58A2}"
+	ProjectSection(SolutionItems) = preProject
+		Headers\Define.h = Headers\Define.h
+		Headers\Enum.h = Headers\Enum.h
+		Headers\Extern.h = Headers\Extern.h
+		Headers\FilePath.h = Headers\FilePath.h
+		Headers\FlagDefine.h = Headers\FlagDefine.h
+		Headers\Function.h = Headers\Function.h
+		Headers\Functor.h = Headers\Functor.h
+		Headers\KeyCodeDefine.h = Headers\KeyCodeDefine.h
+		Headers\SingletonDefine.h = Headers\SingletonDefine.h
+		Headers\Struct.h = Headers\Struct.h
+	EndProjectSection
+EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "Tool", "Tool\Tool.vcxproj", "{FBECBA19-57A6-4B1F-88EB-BE99D15D635A}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|x64 = Debug|x64
+		Debug|x86 = Debug|x86
+		Release|x64 = Release|x64
+		Release|x86 = Release|x86
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{09DAC3BD-079F-4542-BBB3-F126109DD672}.Debug|x64.ActiveCfg = Debug|x64
+		{09DAC3BD-079F-4542-BBB3-F126109DD672}.Debug|x64.Build.0 = Debug|x64
+		{09DAC3BD-079F-4542-BBB3-F126109DD672}.Debug|x86.ActiveCfg = Debug|Win32
+		{09DAC3BD-079F-4542-BBB3-F126109DD672}.Debug|x86.Build.0 = Debug|Win32
+		{09DAC3BD-079F-4542-BBB3-F126109DD672}.Release|x64.ActiveCfg = Release|x64
+		{09DAC3BD-079F-4542-BBB3-F126109DD672}.Release|x64.Build.0 = Release|x64
+		{09DAC3BD-079F-4542-BBB3-F126109DD672}.Release|x86.ActiveCfg = Release|Win32
+		{09DAC3BD-079F-4542-BBB3-F126109DD672}.Release|x86.Build.0 = Release|Win32
+		{FBECBA19-57A6-4B1F-88EB-BE99D15D635A}.Debug|x64.ActiveCfg = Debug|x64
+		{FBECBA19-57A6-4B1F-88EB-BE99D15D635A}.Debug|x64.Build.0 = Debug|x64
+		{FBECBA19-57A6-4B1F-88EB-BE99D15D635A}.Debug|x86.ActiveCfg = Debug|Win32
+		{FBECBA19-57A6-4B1F-88EB-BE99D15D635A}.Debug|x86.Build.0 = Debug|Win32
+		{FBECBA19-57A6-4B1F-88EB-BE99D15D635A}.Release|x64.ActiveCfg = Release|x64
+		{FBECBA19-57A6-4B1F-88EB-BE99D15D635A}.Release|x64.Build.0 = Release|x64
+		{FBECBA19-57A6-4B1F-88EB-BE99D15D635A}.Release|x86.ActiveCfg = Release|Win32
+		{FBECBA19-57A6-4B1F-88EB-BE99D15D635A}.Release|x86.Build.0 = Release|Win32
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{09DAC3BD-079F-4542-BBB3-F126109DD672} = {D4589957-35C3-4F8B-A9FD-CBD54B9D07A3}
+		{FBECBA19-57A6-4B1F-88EB-BE99D15D635A} = {4665DC3A-56B1-424F-8C34-CFB0960B40C9}
+	EndGlobalSection
+EndGlobal

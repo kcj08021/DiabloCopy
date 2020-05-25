@@ -1,0 +1,627 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="00.MainGame">
+      <UniqueIdentifier>{37a83940-6651-4dec-a8b7-75b965704d11}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="01.GameObject">
+      <UniqueIdentifier>{26fec072-ab92-4e36-8779-e7f9c42264a2}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="98.Manager">
+      <UniqueIdentifier>{df168c90-0ded-422e-b93b-4fbd1c3df827}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="98.Manager\00.DeviceManager">
+      <UniqueIdentifier>{1618f932-6710-404e-8593-e0749b47dbbc}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="98.Manager\01.TextureManager">
+      <UniqueIdentifier>{a99d1270-fbc5-44e9-aca7-4e0888c3ace0}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="98.Manager\02.SoundManager">
+      <UniqueIdentifier>{b989f82d-da0c-4087-b810-f7723282232c}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="98.Manager\03.KeyManager">
+      <UniqueIdentifier>{99a95ed6-0bd9-4d54-8234-1c8f6a0ddb86}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="98.Manager\01.TextureManager\00.Texture">
+      <UniqueIdentifier>{6079ec66-74f6-465b-a326-cf7d8640e0d8}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="98.Manager\01.TextureManager\00.Texture\00.SingleTexture">
+      <UniqueIdentifier>{94eed49a-591f-4e47-91b2-53bfbad47a75}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="98.Manager\01.TextureManager\00.Texture\01.MultiTexture">
+      <UniqueIdentifier>{4e3a5deb-d402-4131-b1ee-a091fb602823}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="98.Manager\04.TimeManager">
+      <UniqueIdentifier>{f0de51a1-d1ad-4294-9126-3c0ca758f577}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="98.Manager\05.FrameManager">
+      <UniqueIdentifier>{7cd3ca33-7a71-4d4b-8898-fc67e852fa36}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="98.Manager\06.SceneManager">
+      <UniqueIdentifier>{b1ed2a09-a960-4e1e-9436-f9831f85c2fc}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="98.Manager\07.ObjectManager">
+      <UniqueIdentifier>{9bb26433-c0b9-43a8-ac7b-9449ac177dcb}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="98.Manager\08.ScrollManager">
+      <UniqueIdentifier>{6ea3d0cf-3cf4-4908-b942-1fba32e86768}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="01.GameObject\00.Player">
+      <UniqueIdentifier>{6cb2a7d6-70a1-414f-85bd-3bb3bb031caf}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="98.Manager\09.AStarManager">
+      <UniqueIdentifier>{36e0cd2f-abf5-4d9d-be33-6c518cc0baae}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="99.Default">
+      <UniqueIdentifier>{b7751a50-a5db-4be5-ad30-5ca76bf50ead}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="01.GameObject\99.Map">
+      <UniqueIdentifier>{d8efa1b8-9a40-4207-a801-64c9a65f8104}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="01.GameObject\99.Map\00.Terrain">
+      <UniqueIdentifier>{c51b78a7-dcc1-4a51-a197-ceffce35cc13}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="01.GameObject\01.Monster">
+      <UniqueIdentifier>{03d9ad90-7dbd-448d-b2d3-0c271bc5a497}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="01.GameObject\01.Monster\00.Skeleton">
+      <UniqueIdentifier>{b8f81d21-95b3-4ce1-8472-15467bc30fb5}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="01.GameObject\01.Monster\01.FallenOne">
+      <UniqueIdentifier>{0bdad0d8-ac8a-4d9a-be9b-ab93af2dd3c1}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="01.GameObject\01.Monster\02.Zombie">
+      <UniqueIdentifier>{382a0300-a081-46d3-b2c0-81e39257f135}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="01.GameObject\02.Boss">
+      <UniqueIdentifier>{d91f4eda-d532-45f0-a709-952825cefd51}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="01.GameObject\03.Effect">
+      <UniqueIdentifier>{d19b2058-7d56-43dc-a124-fc5a827b372d}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="97.Scene">
+      <UniqueIdentifier>{16f03fcd-7883-4a62-8d3d-04f367269c0b}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="97.Scene\00.World01">
+      <UniqueIdentifier>{c337faa4-b047-4f72-b70b-0aebb3e7d921}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="03.Others">
+      <UniqueIdentifier>{2d0fd66a-8dd8-4c2a-bb17-ecc785d6fc2d}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="03.Others\00.Spell">
+      <UniqueIdentifier>{51fb2faf-49e0-42fc-9a85-42cc5c0d9756}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="03.Others\00.Spell\00.FireBolt">
+      <UniqueIdentifier>{92b6f618-81c0-4b65-87b3-6fe7c11dda1a}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="03.Others\00.Spell\01.ChargedBolt">
+      <UniqueIdentifier>{32c9c35c-076e-464b-8efa-ceddb02a5544}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="03.Others\00.Spell\02.Ligthning">
+      <UniqueIdentifier>{50a2c153-3696-4164-be7f-d4e9422267f3}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="01.GameObject\03.Effect\03.Explosion">
+      <UniqueIdentifier>{3ede04d1-b1d9-43da-9c3b-605cd6f4631b}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="03.Others\00.Spell\04.ChainLightning">
+      <UniqueIdentifier>{960feb9d-110f-42f0-8bc4-f3dfe13b4c2f}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="03.Others\00.Spell\03.FireWall">
+      <UniqueIdentifier>{54b9bcde-7005-47d8-8ede-44b1175124e7}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="01.GameObject\03.Effect\00.FireBoltEffect">
+      <UniqueIdentifier>{e9a6b7be-ed02-44b6-9cd2-8108b5aef290}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="01.GameObject\03.Effect\02.FireWallEffect">
+      <UniqueIdentifier>{3e65d01e-28cd-4a0c-a371-de2a3ae530b9}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="01.GameObject\03.Effect\01.LightningEffect">
+      <UniqueIdentifier>{6786cc24-32a2-478d-8302-4f567f998b07}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="01.GameObject\03.Effect\01.LightningEffect\00.ChargedBoltEffect">
+      <UniqueIdentifier>{ae1f2a92-bdcc-4130-8898-c77df3974c6c}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="01.GameObject\03.Effect\01.LightningEffect\01.LightningEffect">
+      <UniqueIdentifier>{8e238fb9-03ce-4f4c-8857-3f47f40b0f57}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="01.GameObject\99.Map\01.Collision">
+      <UniqueIdentifier>{ddbc5422-cabe-407d-b069-9d69797ff38f}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="03.Others\00.Spell\06.Teleport">
+      <UniqueIdentifier>{a24c5700-d134-4cc0-9543-0f3ea6f8f541}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="01.GameObject\02.Boss\00.Butcher">
+      <UniqueIdentifier>{b8b3d2f0-64e2-4e4b-b17a-5b89a7ed292e}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="01.GameObject\02.Boss\01.SkeletonKing">
+      <UniqueIdentifier>{5a9665bf-ec63-4539-a93d-7f8ecc0f601b}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="01.GameObject\05.UI">
+      <UniqueIdentifier>{48df6cba-dac3-46b4-af6f-58be7990565d}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="01.GameObject\05.UI\00.HUD">
+      <UniqueIdentifier>{cdd38279-e85b-44b2-9791-fc29566d7955}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="01.GameObject\05.UI\01.StatusPage">
+      <UniqueIdentifier>{14a7f0f1-f54a-4c7f-a06b-f7532089a956}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="01.GameObject\05.UI\02.InventoryPage">
+      <UniqueIdentifier>{ed8e4967-fc6f-459d-887a-57bbc2ca7b2c}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="01.GameObject\05.UI\03.QuestPage">
+      <UniqueIdentifier>{425a2448-3d9f-4f0f-9a33-841fa7e9ac06}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="01.GameObject\05.UI\04.SpellPage">
+      <UniqueIdentifier>{76f25ed2-b58c-4ad3-944e-749ec925978f}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="01.GameObject\04.Item">
+      <UniqueIdentifier>{66819fb3-f91f-4720-b64a-333c92588e2a}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="01.GameObject\04.Item\00.Gold">
+      <UniqueIdentifier>{1604ecc9-2984-442c-854d-cda12bb49ce2}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="01.GameObject\04.Item\01.HeavyArmor">
+      <UniqueIdentifier>{a80326b5-57f7-431b-a53e-821574437a98}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="01.GameObject\04.Item\02.Sword">
+      <UniqueIdentifier>{3aac3e59-ded9-4821-9ffa-eb277411a1a4}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="01.GameObject\04.Item\03.Helmet">
+      <UniqueIdentifier>{667e0397-3b25-4bb1-856e-7847f11a74d2}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="01.GameObject\04.Item\04.Amulet">
+      <UniqueIdentifier>{51da4ad6-ffb5-45ae-adac-949d9b109246}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="01.GameObject\04.Item\05.Ring">
+      <UniqueIdentifier>{e62e8487-05cd-4b98-988d-31ecdee9ea84}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="01.GameObject\04.Item\99.Potion">
+      <UniqueIdentifier>{39406a98-c5c4-43ab-9323-779e5d1a0303}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="01.GameObject\04.Item\06.Shield">
+      <UniqueIdentifier>{a6826eeb-46dd-461e-8e71-c5e9242c42a6}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="01.GameObject\04.Item\99.Potion\00.HPPotion">
+      <UniqueIdentifier>{e209b753-cc92-4428-9ae1-e78676cc5189}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="01.GameObject\04.Item\99.Potion\01.MPPotion">
+      <UniqueIdentifier>{4c9c5b0d-3d24-45b0-bf3f-2225065cff22}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="03.Others\00.Spell\07.Healing">
+      <UniqueIdentifier>{40b0553c-b27e-4777-a562-71c3a4db1013}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="03.Others\00.Spell\05.Apocalypse">
+      <UniqueIdentifier>{727f0bee-037c-4f7c-8003-10b2a7168c0a}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="01.GameObject\06.MapObject">
+      <UniqueIdentifier>{9e4b6fb7-ec77-4639-8bd1-bd1f6ec72dbe}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="01.GameObject\07.Tile">
+      <UniqueIdentifier>{22522a7f-5b97-4142-b05a-16fe26feb1d5}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="97.Scene\01.World02">
+      <UniqueIdentifier>{338da810-d6f5-4d4c-840b-4eb731b6ae78}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="01.GameObject\01.Monster\03.Barrol">
+      <UniqueIdentifier>{642015e1-7aed-4cc3-8e0a-1ce0bc41bd61}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="01.GameObject\01.Monster\04.TrapBarrol">
+      <UniqueIdentifier>{120994ea-bcbd-4791-908a-f9940063ed76}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="01.GameObject\06.MapObject\00.Portal">
+      <UniqueIdentifier>{66e5a533-f225-4271-a209-bcf775679de3}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="01.GameObject\06.MapObject\01.Tomb">
+      <UniqueIdentifier>{f05d936b-fcda-4a9a-9630-7f864b64410a}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="97.Scene\02.Title">
+      <UniqueIdentifier>{b26543e4-70b6-4d28-816b-75130148826c}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="MainGame.h">
+      <Filter>00.MainGame</Filter>
+    </ClInclude>
+    <ClInclude Include="GameObject.h">
+      <Filter>01.GameObject</Filter>
+    </ClInclude>
+    <ClInclude Include="TextureManager.h">
+      <Filter>98.Manager\01.TextureManager</Filter>
+    </ClInclude>
+    <ClInclude Include="Texture.h">
+      <Filter>98.Manager\01.TextureManager\00.Texture</Filter>
+    </ClInclude>
+    <ClInclude Include="SingleTexture.h">
+      <Filter>98.Manager\01.TextureManager\00.Texture\00.SingleTexture</Filter>
+    </ClInclude>
+    <ClInclude Include="SceneManager.h">
+      <Filter>98.Manager\06.SceneManager</Filter>
+    </ClInclude>
+    <ClInclude Include="Scene.h">
+      <Filter>97.Scene</Filter>
+    </ClInclude>
+    <ClInclude Include="ObjectManager.h">
+      <Filter>98.Manager\07.ObjectManager</Filter>
+    </ClInclude>
+    <ClInclude Include="MultiTexture.h">
+      <Filter>98.Manager\01.TextureManager\00.Texture\01.MultiTexture</Filter>
+    </ClInclude>
+    <ClInclude Include="KeyManager.h">
+      <Filter>98.Manager\03.KeyManager</Filter>
+    </ClInclude>
+    <ClInclude Include="DeviceManager.h">
+      <Filter>98.Manager\00.DeviceManager</Filter>
+    </ClInclude>
+    <ClInclude Include="TimeManager.h">
+      <Filter>98.Manager\04.TimeManager</Filter>
+    </ClInclude>
+    <ClInclude Include="FrameManager.h">
+      <Filter>98.Manager\05.FrameManager</Filter>
+    </ClInclude>
+    <ClInclude Include="Terrain.h">
+      <Filter>01.GameObject\99.Map\00.Terrain</Filter>
+    </ClInclude>
+    <ClInclude Include="World1.h">
+      <Filter>97.Scene\00.World01</Filter>
+    </ClInclude>
+    <ClInclude Include="Player.h">
+      <Filter>01.GameObject\00.Player</Filter>
+    </ClInclude>
+    <ClInclude Include="ScrollManager.h">
+      <Filter>98.Manager\08.ScrollManager</Filter>
+    </ClInclude>
+    <ClInclude Include="AStarManager.h">
+      <Filter>98.Manager\09.AStarManager</Filter>
+    </ClInclude>
+    <ClInclude Include="Client.h">
+      <Filter>99.Default</Filter>
+    </ClInclude>
+    <ClInclude Include="Resource.h">
+      <Filter>99.Default</Filter>
+    </ClInclude>
+    <ClInclude Include="stdafx.h">
+      <Filter>99.Default</Filter>
+    </ClInclude>
+    <ClInclude Include="targetver.h">
+      <Filter>99.Default</Filter>
+    </ClInclude>
+    <ClInclude Include="Skeleton.h">
+      <Filter>01.GameObject\01.Monster\00.Skeleton</Filter>
+    </ClInclude>
+    <ClInclude Include="Spell.h">
+      <Filter>03.Others\00.Spell</Filter>
+    </ClInclude>
+    <ClInclude Include="FireBolt.h">
+      <Filter>03.Others\00.Spell\00.FireBolt</Filter>
+    </ClInclude>
+    <ClInclude Include="FirrBoltEffect.h">
+      <Filter>01.GameObject\03.Effect\00.FireBoltEffect</Filter>
+    </ClInclude>
+    <ClInclude Include="ExplosionEffect.h">
+      <Filter>01.GameObject\03.Effect\03.Explosion</Filter>
+    </ClInclude>
+    <ClInclude Include="FireWall.h">
+      <Filter>03.Others\00.Spell\03.FireWall</Filter>
+    </ClInclude>
+    <ClInclude Include="FireWallEffect.h">
+      <Filter>01.GameObject\03.Effect\02.FireWallEffect</Filter>
+    </ClInclude>
+    <ClInclude Include="Lightning.h">
+      <Filter>03.Others\00.Spell\02.Ligthning</Filter>
+    </ClInclude>
+    <ClInclude Include="LightningEffect.h">
+      <Filter>01.GameObject\03.Effect\01.LightningEffect\01.LightningEffect</Filter>
+    </ClInclude>
+    <ClInclude Include="ChainLightning.h">
+      <Filter>03.Others\00.Spell\04.ChainLightning</Filter>
+    </ClInclude>
+    <ClInclude Include="Teleport.h">
+      <Filter>03.Others\00.Spell\06.Teleport</Filter>
+    </ClInclude>
+    <ClInclude Include="HUD.h">
+      <Filter>01.GameObject\05.UI\00.HUD</Filter>
+    </ClInclude>
+    <ClInclude Include="StatusPage.h">
+      <Filter>01.GameObject\05.UI\01.StatusPage</Filter>
+    </ClInclude>
+    <ClInclude Include="QuestPage.h">
+      <Filter>01.GameObject\05.UI\03.QuestPage</Filter>
+    </ClInclude>
+    <ClInclude Include="SpellPage.h">
+      <Filter>01.GameObject\05.UI\04.SpellPage</Filter>
+    </ClInclude>
+    <ClInclude Include="Butcher.h">
+      <Filter>01.GameObject\02.Boss\00.Butcher</Filter>
+    </ClInclude>
+    <ClInclude Include="SkeletonKing.h">
+      <Filter>01.GameObject\02.Boss\01.SkeletonKing</Filter>
+    </ClInclude>
+    <ClInclude Include="Item.h">
+      <Filter>01.GameObject\04.Item</Filter>
+    </ClInclude>
+    <ClInclude Include="InventoryPage.h">
+      <Filter>01.GameObject\05.UI\02.InventoryPage</Filter>
+    </ClInclude>
+    <ClInclude Include="Gold.h">
+      <Filter>01.GameObject\04.Item\00.Gold</Filter>
+    </ClInclude>
+    <ClInclude Include="HeavyArmor.h">
+      <Filter>01.GameObject\04.Item\01.HeavyArmor</Filter>
+    </ClInclude>
+    <ClInclude Include="Amulet.h">
+      <Filter>01.GameObject\04.Item\04.Amulet</Filter>
+    </ClInclude>
+    <ClInclude Include="Helmet.h">
+      <Filter>01.GameObject\04.Item\03.Helmet</Filter>
+    </ClInclude>
+    <ClInclude Include="Ring.h">
+      <Filter>01.GameObject\04.Item\05.Ring</Filter>
+    </ClInclude>
+    <ClInclude Include="Shield.h">
+      <Filter>01.GameObject\04.Item\06.Shield</Filter>
+    </ClInclude>
+    <ClInclude Include="Sword.h">
+      <Filter>01.GameObject\04.Item\02.Sword</Filter>
+    </ClInclude>
+    <ClInclude Include="Potion.h">
+      <Filter>01.GameObject\04.Item\99.Potion</Filter>
+    </ClInclude>
+    <ClInclude Include="HPPotion.h">
+      <Filter>01.GameObject\04.Item\99.Potion\00.HPPotion</Filter>
+    </ClInclude>
+    <ClInclude Include="MPPotion.h">
+      <Filter>01.GameObject\04.Item\99.Potion\01.MPPotion</Filter>
+    </ClInclude>
+    <ClInclude Include="Healing.h">
+      <Filter>03.Others\00.Spell\07.Healing</Filter>
+    </ClInclude>
+    <ClInclude Include="Apocalypse.h">
+      <Filter>03.Others\00.Spell\05.Apocalypse</Filter>
+    </ClInclude>
+    <ClInclude Include="FallenOne.h">
+      <Filter>01.GameObject\01.Monster\01.FallenOne</Filter>
+    </ClInclude>
+    <ClInclude Include="Zombie.h">
+      <Filter>01.GameObject\01.Monster\02.Zombie</Filter>
+    </ClInclude>
+    <ClInclude Include="Tile.h">
+      <Filter>01.GameObject\07.Tile</Filter>
+    </ClInclude>
+    <ClInclude Include="World2.h">
+      <Filter>97.Scene\01.World02</Filter>
+    </ClInclude>
+    <ClInclude Include="Barrol.h">
+      <Filter>01.GameObject\01.Monster\03.Barrol</Filter>
+    </ClInclude>
+    <ClInclude Include="TrapBarrol.h">
+      <Filter>01.GameObject\01.Monster\04.TrapBarrol</Filter>
+    </ClInclude>
+    <ClInclude Include="Portal.h">
+      <Filter>01.GameObject\06.MapObject\00.Portal</Filter>
+    </ClInclude>
+    <ClInclude Include="Tomb.h">
+      <Filter>01.GameObject\06.MapObject\01.Tomb</Filter>
+    </ClInclude>
+    <ClInclude Include="ColTile.h">
+      <Filter>01.GameObject\99.Map\01.Collision</Filter>
+    </ClInclude>
+    <ClInclude Include="MapObject.h">
+      <Filter>01.GameObject\06.MapObject</Filter>
+    </ClInclude>
+    <ClInclude Include="SoundManager.h">
+      <Filter>98.Manager\02.SoundManager</Filter>
+    </ClInclude>
+    <ClInclude Include="Title.h">
+      <Filter>97.Scene\02.Title</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="MainGame.cpp">
+      <Filter>00.MainGame</Filter>
+    </ClCompile>
+    <ClCompile Include="GameObject.cpp">
+      <Filter>01.GameObject</Filter>
+    </ClCompile>
+    <ClCompile Include="Scene.cpp">
+      <Filter>97.Scene</Filter>
+    </ClCompile>
+    <ClCompile Include="TextureManager.cpp">
+      <Filter>98.Manager\01.TextureManager</Filter>
+    </ClCompile>
+    <ClCompile Include="Texture.cpp">
+      <Filter>98.Manager\01.TextureManager\00.Texture</Filter>
+    </ClCompile>
+    <ClCompile Include="SingleTexture.cpp">
+      <Filter>98.Manager\01.TextureManager\00.Texture\00.SingleTexture</Filter>
+    </ClCompile>
+    <ClCompile Include="SceneManager.cpp">
+      <Filter>98.Manager\06.SceneManager</Filter>
+    </ClCompile>
+    <ClCompile Include="ObjectManager.cpp">
+      <Filter>98.Manager\07.ObjectManager</Filter>
+    </ClCompile>
+    <ClCompile Include="MultiTexture.cpp">
+      <Filter>98.Manager\01.TextureManager\00.Texture\01.MultiTexture</Filter>
+    </ClCompile>
+    <ClCompile Include="KeyManager.cpp">
+      <Filter>98.Manager\03.KeyManager</Filter>
+    </ClCompile>
+    <ClCompile Include="DeviceManager.cpp">
+      <Filter>98.Manager\00.DeviceManager</Filter>
+    </ClCompile>
+    <ClCompile Include="TimeManager.cpp">
+      <Filter>98.Manager\04.TimeManager</Filter>
+    </ClCompile>
+    <ClCompile Include="FrameManager.cpp">
+      <Filter>98.Manager\05.FrameManager</Filter>
+    </ClCompile>
+    <ClCompile Include="Terrain.cpp">
+      <Filter>01.GameObject\99.Map\00.Terrain</Filter>
+    </ClCompile>
+    <ClCompile Include="World1.cpp">
+      <Filter>97.Scene\00.World01</Filter>
+    </ClCompile>
+    <ClCompile Include="ColTile.cpp">
+      <Filter>01.GameObject\99.Map\01.Collision</Filter>
+    </ClCompile>
+    <ClCompile Include="Player.cpp">
+      <Filter>01.GameObject\00.Player</Filter>
+    </ClCompile>
+    <ClCompile Include="ScrollManager.cpp">
+      <Filter>98.Manager\08.ScrollManager</Filter>
+    </ClCompile>
+    <ClCompile Include="AStarManager.cpp">
+      <Filter>98.Manager\09.AStarManager</Filter>
+    </ClCompile>
+    <ClCompile Include="stdafx.cpp">
+      <Filter>99.Default</Filter>
+    </ClCompile>
+    <ClCompile Include="Client.cpp">
+      <Filter>99.Default</Filter>
+    </ClCompile>
+    <ClCompile Include="Skeleton.cpp">
+      <Filter>01.GameObject\01.Monster\00.Skeleton</Filter>
+    </ClCompile>
+    <ClCompile Include="Spell.cpp">
+      <Filter>03.Others\00.Spell</Filter>
+    </ClCompile>
+    <ClCompile Include="FireBolt.cpp">
+      <Filter>03.Others\00.Spell\00.FireBolt</Filter>
+    </ClCompile>
+    <ClCompile Include="FirrBoltEffect.cpp">
+      <Filter>01.GameObject\03.Effect\00.FireBoltEffect</Filter>
+    </ClCompile>
+    <ClCompile Include="ExplosionEffect.cpp">
+      <Filter>01.GameObject\03.Effect\03.Explosion</Filter>
+    </ClCompile>
+    <ClCompile Include="FireWall.cpp">
+      <Filter>03.Others\00.Spell\03.FireWall</Filter>
+    </ClCompile>
+    <ClCompile Include="FireWallEffect.cpp">
+      <Filter>01.GameObject\03.Effect\02.FireWallEffect</Filter>
+    </ClCompile>
+    <ClCompile Include="Lightning.cpp">
+      <Filter>03.Others\00.Spell\02.Ligthning</Filter>
+    </ClCompile>
+    <ClCompile Include="LightningEffect.cpp">
+      <Filter>01.GameObject\03.Effect\01.LightningEffect\01.LightningEffect</Filter>
+    </ClCompile>
+    <ClCompile Include="ChainLightning.cpp">
+      <Filter>03.Others\00.Spell\04.ChainLightning</Filter>
+    </ClCompile>
+    <ClCompile Include="Teleport.cpp">
+      <Filter>03.Others\00.Spell\06.Teleport</Filter>
+    </ClCompile>
+    <ClCompile Include="HUD.cpp">
+      <Filter>01.GameObject\05.UI\00.HUD</Filter>
+    </ClCompile>
+    <ClCompile Include="StatusPage.cpp">
+      <Filter>01.GameObject\05.UI\01.StatusPage</Filter>
+    </ClCompile>
+    <ClCompile Include="QuestPage.cpp">
+      <Filter>01.GameObject\05.UI\03.QuestPage</Filter>
+    </ClCompile>
+    <ClCompile Include="SpellPage.cpp">
+      <Filter>01.GameObject\05.UI\04.SpellPage</Filter>
+    </ClCompile>
+    <ClCompile Include="Butcher.cpp">
+      <Filter>01.GameObject\02.Boss\00.Butcher</Filter>
+    </ClCompile>
+    <ClCompile Include="SkeletonKing.cpp">
+      <Filter>01.GameObject\02.Boss\01.SkeletonKing</Filter>
+    </ClCompile>
+    <ClCompile Include="Item.cpp">
+      <Filter>01.GameObject\04.Item</Filter>
+    </ClCompile>
+    <ClCompile Include="InventoryPage.cpp">
+      <Filter>01.GameObject\05.UI\02.InventoryPage</Filter>
+    </ClCompile>
+    <ClCompile Include="Gold.cpp">
+      <Filter>01.GameObject\04.Item\00.Gold</Filter>
+    </ClCompile>
+    <ClCompile Include="HeavyArmor.cpp">
+      <Filter>01.GameObject\04.Item\01.HeavyArmor</Filter>
+    </ClCompile>
+    <ClCompile Include="Amulet.cpp">
+      <Filter>01.GameObject\04.Item\04.Amulet</Filter>
+    </ClCompile>
+    <ClCompile Include="Helmet.cpp">
+      <Filter>01.GameObject\04.Item\03.Helmet</Filter>
+    </ClCompile>
+    <ClCompile Include="Ring.cpp">
+      <Filter>01.GameObject\04.Item\05.Ring</Filter>
+    </ClCompile>
+    <ClCompile Include="Shield.cpp">
+      <Filter>01.GameObject\04.Item\06.Shield</Filter>
+    </ClCompile>
+    <ClCompile Include="Sword.cpp">
+      <Filter>01.GameObject\04.Item\02.Sword</Filter>
+    </ClCompile>
+    <ClCompile Include="Potion.cpp">
+      <Filter>01.GameObject\04.Item\99.Potion</Filter>
+    </ClCompile>
+    <ClCompile Include="HPPotion.cpp">
+      <Filter>01.GameObject\04.Item\99.Potion\00.HPPotion</Filter>
+    </ClCompile>
+    <ClCompile Include="MPPotion.cpp">
+      <Filter>01.GameObject\04.Item\99.Potion\01.MPPotion</Filter>
+    </ClCompile>
+    <ClCompile Include="Healing.cpp">
+      <Filter>03.Others\00.Spell\07.Healing</Filter>
+    </ClCompile>
+    <ClCompile Include="Apocalypse.cpp">
+      <Filter>03.Others\00.Spell\05.Apocalypse</Filter>
+    </ClCompile>
+    <ClCompile Include="FallenOne.cpp">
+      <Filter>01.GameObject\01.Monster\01.FallenOne</Filter>
+    </ClCompile>
+    <ClCompile Include="Zombie.cpp">
+      <Filter>01.GameObject\01.Monster\02.Zombie</Filter>
+    </ClCompile>
+    <ClCompile Include="Tile.cpp">
+      <Filter>01.GameObject\07.Tile</Filter>
+    </ClCompile>
+    <ClCompile Include="World2.cpp">
+      <Filter>97.Scene\01.World02</Filter>
+    </ClCompile>
+    <ClCompile Include="Barrol.cpp">
+      <Filter>01.GameObject\01.Monster\03.Barrol</Filter>
+    </ClCompile>
+    <ClCompile Include="TrapBarrol.cpp">
+      <Filter>01.GameObject\01.Monster\04.TrapBarrol</Filter>
+    </ClCompile>
+    <ClCompile Include="Portal.cpp">
+      <Filter>01.GameObject\06.MapObject\00.Portal</Filter>
+    </ClCompile>
+    <ClCompile Include="Tomb.cpp">
+      <Filter>01.GameObject\06.MapObject\01.Tomb</Filter>
+    </ClCompile>
+    <ClCompile Include="MapObject.cpp">
+      <Filter>01.GameObject\06.MapObject</Filter>
+    </ClCompile>
+    <ClCompile Include="SoundManager.cpp">
+      <Filter>98.Manager\02.SoundManager</Filter>
+    </ClCompile>
+    <ClCompile Include="Title.cpp">
+      <Filter>97.Scene\02.Title</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ResourceCompile Include="Client.rc">
+      <Filter>99.Default</Filter>
+    </ResourceCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <Image Include="Client.ico">
+      <Filter>99.Default</Filter>
+    </Image>
+    <Image Include="small.ico">
+      <Filter>99.Default</Filter>
+    </Image>
+  </ItemGroup>
+  <ItemGroup>
+    <Text Include="ReadMe.txt">
+      <Filter>99.Default</Filter>
+    </Text>
+  </ItemGroup>
+</Project>
